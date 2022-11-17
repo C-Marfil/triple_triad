@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    width: 100vh;
+    background-color: black;
+}
+
+#viewport {
+    display: flex;
+    margin-left: 400px;
+    margin-top: 30px;
+    height: 90vh;
+    width: 90vh;
+    background-image: url('/images/background.png');
+    background-repeat: no-repeat;
+    background-size: 175vh;
+    background-position: center;
+};
+
+#deck {
+    height:80vh;
+    width:0vh;
+    display: flex;
+}
+
+.card {
+    height: 20.5vh;
+    width: 19.5vh;
+    background-color: yellow;
+    background-size:20vh;
+    background-repeat: no-repeat;
+}
+
+#diablo {
+    background-image: url('/images/ttcardDiablo.png');
+}
+#bigchocobo {
+    background-image: url('/images/ttcardBigChocobo.png');
+
+}

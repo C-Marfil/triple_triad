@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>TRIPLE TRIAD!</title>
+</head>
+
+<body>
+    <div id="deck1"></div>
+
+    <div id="viewport">
+    
+    </div>
+
+
+
+
+<script src="src/controller.js"></script>
+<script src="src/grid.js"></script>
+<script src="src/card.js"></script>
+<script src="src/deck.js"></script>
+<script src="src/catalogue.js"></script>
+
+<script>
+    const A = 10;
+    const deck = new Deck('Carlos');
+    const G1 = new Grid();
+    const G2 = new Grid();
+    const G3 = new Grid();
+    const catalogue = new Catalogue();
+  
+    deck.addCard(diablo, catalogue);
+    deck.ownCard(diablo, catalogue);
+    deck.addCard(bigChocobo, catalogue);
+    deck.ownCard(bigChocobo, catalogue);
+    const controller = new Controller(deck, G1, G2, G3);
+    controller.renderCards();
+    
+
+</script>
+
+
+
+</body>
+</html>
