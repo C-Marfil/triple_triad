@@ -11,6 +11,42 @@
             this.selectedCard = null;
             this.selectedGrid = null;
      
+            document.querySelector('#selectcard1').addEventListener('click', () => {
+                this.selectedCard = this.deck.cards[0];
+            });
+            document.querySelector('#G1').addEventListener('click', () => {
+                const selectedCard = this.selectedCard;
+                const gridButton1 = document.querySelector('#G1');
+                const cardElement = document.querySelector(`#${selectedCard.name}`);
+                this.selectedGrid = this.G1;
+
+                if(selectedCard != null) {
+                    selectedCard.placeCard(G1);
+                    this.deck.cards.pop(selectedCard);
+                    gridButton1.style.backgroundImage = `url('/images/ttcard${selectedCard.name}.png')`;
+                    cardElement.style.backgroundImage = `url()`;
+                } else {
+                    return alert('Please select a card first');
+                };
+            });
+            document.querySelector('#selectcard2').addEventListener('click', () => {
+                this.selectedCard = this.deck.cards[1];
+            });
+            document.querySelector('#G2').addEventListener('click', () => {
+                const selectedCard = this.selectedCard;
+                const gridButton1 = document.querySelector('#G2');
+                const cardElement = document.querySelector(`#${selectedCard.name}`);
+                this.selectedGrid = this.G2;
+
+                if(selectedCard != null) {
+                    selectedCard.placeCard(G2);
+                    this.deck.cards.pop(selectedCard);
+                    gridButton1.style.backgroundImage = `url('/images/ttcard${selectedCard.name}.png')`;
+                    cardElement.style.backgroundImage = `url()`;
+                } else {
+                    return alert('Please select a card first');
+                };
+            });
     };
         set card0(newCard) {
             if (this.deck === null) {

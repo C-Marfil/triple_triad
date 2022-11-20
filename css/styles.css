@@ -49,8 +49,10 @@ padding-left: 17vh;
     border-color: rgba(0, 0, 255, 0.204);
     z-index: 1;
     position: absolute;
+    background-size: 18vh;
     padding-top: 18vh;
     padding-left: 17vh;
+    background-repeat: no-repeat;
 }
 
 #G1 {
