@@ -40,3 +40,18 @@ describe('Card properties and methods', () => {
         });
     });
 });
+// const Controller = require('./src/controller.js');
+// const Card = require('./src/card.js');
+// const Catalogue = require('./src/catalogue.js');
+// const Deck = require('./src/deck.js');
+// const Grid = require('./src/grid.js');
+// const catalogue = new Catalogue();
+// const deck = new Deck('carlos');
+// const diablo = new Card('diablo', 3, 3, 3, 3);
+// const fatChocobo = new Card('FatChocobo', 3, 4, 5, 4);
+// const G1 = new Grid();
+// const G2 = new Grid();
+// const G3 = new Grid();
+// deck.addCard(diablo, catalogue);
+// deck.addCard(fatChocobo, catalogue);
+// const controller = new Controller(deck, G1, G2, G3);

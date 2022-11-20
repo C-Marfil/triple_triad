@@ -1,33 +1,75 @@
 body {
+    display: flex;
+    justify-content: space-between;
     height: 100vh;
     width: 100vh;
     background-color: black;
 }
 
 #viewport {
-    display: flex;
-    margin-left: 400px;
-    margin-top: 30px;
-    height: 90vh;
-    width: 90vh;
+    background-color: blue;
+    position: absolute;
+    margin-left: 50vh;
+    margin-top: 13vh;;
+    height: 70vh;
+    width: 80vh;
     background-image: url('/images/background.png');
     background-repeat: no-repeat;
-    background-size: 175vh;
+    background-size: 120vh;
     background-position: center;
 };
 
-#deck {
+#deck1 {
     height:80vh;
     width:0vh;
     display: flex;
+    position: relative;
+}
+
+.deckbuttons {
+background-color: rgba(0, 0, 255, 0.152);
+z-index: 1;
+position: absolute;
+padding-top: 18vh;
+padding-left: 17vh;
+}
+
+#selectcard1 {
+    margin-top: 0.3vh;
+    margin-left: 0.3vh;
+}
+
+#selectcard2{
+    margin-top: 20vh;
+    margin-left: 0.3vh;
+}
+
+.gridbuttons {
+    background-color: rgba(0, 0, 255, 0.037);
+    border-color: rgba(0, 0, 255, 0.204);
+    z-index: 1;
+    position: absolute;
+    padding-top: 18vh;
+    padding-left: 17vh;
+}
+
+#G1 {
+    margin-top: 5.4vh;
+    margin-left: 10.7vh;
+}
+
+#G2 {
+    margin-top: 5.4vh;
+    margin-left: 31vh;
 }
 
 .card {
-    height: 20.5vh;
-    width: 19.5vh;
+    height: 19vh;
+    width: 19vh;
     background-color: yellow;
-    background-size:20vh;
+    background-size:19vh;
     background-repeat: no-repeat;
+    margin-bottom: 0.4vh;
 }
 
 #diablo {

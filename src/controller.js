@@ -6,6 +6,27 @@
             this.G2 = Grid2;
             this.G3 = Grid3;
             this.deck = Deck;
+            this.card0 = null;
+            this.card1 = null;
+            this.selectedCard = null;
+            this.selectedGrid = null;
+     
+    };
+        set card0(newCard) {
+            if (this.deck === null) {
+                this.card0 = null;
+            } else {
+            const firstInCards = this.deck.cards[0];
+            this._card0 = firstInCards;
+            };
+        };
+        set card1(newCard) {
+            if(this.deck === null) {
+                this.card1 = null;
+            }else{
+                const secondInCards = this.deck.cards[1];
+            this._card1 = secondInCards;
+            };
         };
 
         renderCards() {
@@ -40,8 +61,7 @@
             };
         };
     };
-
-
+   
     if (typeof module !== 'undefined' && module.exports) {
         module.exports = Controller;
         } else {

@@ -9,10 +9,17 @@
 </head>
 
 <body>
-    <div id="deck1"></div>
+    <div id="deck1">
+        <button id="selectcard1" class="deckbuttons"></button>
+        <button id="selectcard2" class="deckbuttons"></button>
+    </div>
 
     <div id="viewport">
-    
+        <button id="G1" class="gridbuttons"></button>
+        <button id="G2" class="gridbuttons"></button>
+    </div>
+
+    <div id="deck2">
     </div>
 
 
@@ -31,7 +38,14 @@
     const G2 = new Grid();
     const G3 = new Grid();
     const catalogue = new Catalogue();
-  
+    const diablo = new Card('diablo', 5, 8, 3, A);
+    const bigChocobo = new Card('bigchocobo', 4, 8, 9, 4);
+    deck.addCard(diablo, catalogue);
+    deck.ownCard(diablo, catalogue);
+    deck.addCard(diablo, catalogue);
+    deck.ownCard(diablo, catalogue);
+    deck.addCard(diablo, catalogue);
+    deck.ownCard(diablo, catalogue);
     deck.addCard(diablo, catalogue);
     deck.ownCard(diablo, catalogue);
     deck.addCard(bigChocobo, catalogue);
