@@ -20,14 +20,14 @@
                 const cardElement = document.querySelector(`#${selectedCard.name}`);
                 this.selectedGrid = this.G1;
 
-                if(selectedCard != null) {
+                if(this.selectedGrid.busy === false && selectedCard !== null) {
                     selectedCard.placeCard(G1);
-                    this.deck.cards.pop(selectedCard);
                     gridButton1.style.backgroundImage = `url('/images/ttcard${selectedCard.name}.png')`;
                     cardElement.style.backgroundImage = `url()`;
                 } else {
-                    return alert('Please select a card first');
+                    return alert('This Grid is already occupied!');
                 };
+                
             });
             document.querySelector('#selectcard2').addEventListener('click', () => {
                 this.selectedCard = this.deck.cards[1];
@@ -38,13 +38,12 @@
                 const cardElement = document.querySelector(`#${selectedCard.name}`);
                 this.selectedGrid = this.G2;
 
-                if(selectedCard != null) {
+                if(this.selectedGrid.busy === false && selectedCard !== null) {
                     selectedCard.placeCard(G2);
-                    this.deck.cards.pop(selectedCard);
                     gridButton1.style.backgroundImage = `url('/images/ttcard${selectedCard.name}.png')`;
                     cardElement.style.backgroundImage = `url()`;
                 } else {
-                    return alert('Please select a card first');
+                    return alert('This Grid is already occupied!');
                 };
             });
     };

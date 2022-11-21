@@ -3,6 +3,7 @@
     class Grid {
         constructor (){
             this.cardPlaced = [];
+            this.busy = false;
             this.up = null;
             this.down = null;
             this.left = null;

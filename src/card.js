@@ -22,6 +22,7 @@
             Grid.right = this.right;
             Grid.deck.push(this.deck[0]);
             this.placed = true;
+            Grid.busy = true;
         };
     };
 
