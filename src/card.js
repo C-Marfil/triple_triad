@@ -11,8 +11,8 @@
             this.flipped = false;
             this.placed = false;
         };
-        flipCard() {
-            this.flipped = true;
+          set flipped(truthy) {
+            this._flipped = true;
         };
         placeCard(Grid) {
             Grid.cardPlaced.push(this);

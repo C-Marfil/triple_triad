@@ -20,6 +20,8 @@
     </div>
 
     <div id="deck2">
+        <button id="selectrival1" class="deckbuttons"></button>
+        <button id="selectrival2" class="deckbuttons"></button>
     </div>
 
 
@@ -34,23 +36,36 @@
 <script>
     const A = 10;
     const deck = new Deck('Carlos');
+    const enemyDeck = new Deck('Enemy');
     const G1 = new Grid();
     const G2 = new Grid();
     const G3 = new Grid();
     const catalogue = new Catalogue();
     const diablo = new Card('diablo', 5, 8, 3, A);
     const bigChocobo = new Card('bigchocobo', 4, 8, 9, 4);
+    const tomberi = new Card('tomberi', 3, 4, 4, 6);
+    const ifrit = new Card('ifrit', 9, 8, 6, 2);
+    deck.addCard(diablo, catalogue);
+    deck.ownCard(diablo, catalogue);
+    deck.addCard(tomberi, catalogue);
+    deck.ownCard(tomberi, catalogue);
+    deck.addCard(diablo, catalogue);
+    deck.ownCard(diablo, catalogue);
     deck.addCard(diablo, catalogue);
     deck.ownCard(diablo, catalogue);
     deck.addCard(bigChocobo, catalogue);
     deck.ownCard(bigChocobo, catalogue);
-    deck.addCard(diablo, catalogue);
-    deck.ownCard(diablo, catalogue);
-    deck.addCard(diablo, catalogue);
-    deck.ownCard(diablo, catalogue);
-    deck.addCard(bigChocobo, catalogue);
-    deck.ownCard(bigChocobo, catalogue);
-    const controller = new Controller(deck, G1, G2, G3);
+    enemyDeck.addCard(ifrit, catalogue);
+    enemyDeck.ownCard(ifrit, catalogue);
+    enemyDeck.addCard(tomberi, catalogue);
+    enemyDeck.ownCard(tomberi, catalogue);
+    enemyDeck.addCard(ifrit, catalogue);
+    enemyDeck.ownCard(ifrit, catalogue);
+    enemyDeck.addCard(tomberi, catalogue);
+    enemyDeck.ownCard(tomberi, catalogue);
+    enemyDeck.addCard(ifrit, catalogue);
+    enemyDeck.ownCard(ifrit, catalogue);
+    const controller = new Controller(deck, enemyDeck, G1, G2, G3);
     controller.renderCards();
     
 
