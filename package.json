@@ -10,5 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.2.2"
+  },
+  "dependencies": {
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3"
   }
 }

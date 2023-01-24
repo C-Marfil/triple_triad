@@ -1,96 +1,155 @@
 body {
-    display: flex;
-    justify-content: space-between;
-    height: 100vh;
-    width: 100vh;
-    background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vh;
+  background-color: black;
 }
 
 #viewport {
-    background-color: blue;
-    position: absolute;
-    margin-left: 43.5vh;
-    margin-top: 13vh;;
-    height: 70vh;
-    width: 80vh;
-    background-image: url('/images/background.png');
-    background-repeat: no-repeat;
-    background-size: 120vh;
-    background-position: center;
-};
+  background-color: blue;
+  position: absolute;
+  margin-left: 43.5vh;
+  margin-top: 13vh;
+  height: 70vh;
+  width: 80vh;
+  background-image: url("/images/background.png");
+  background-repeat: no-repeat;
+  background-size: 120vh;
+  background-position: center;
+}
 
 #deck1 {
-    height:80vh;
-    width:0vh;
-    display: flex;
-    position: relative;
+  height: 80vh;
+  width: 0vh;
+  display: flex;
+  position: relative;
 }
 
 #deck2 {
-    height:80vh;
-    margin-left: 125vh;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
+  height: 80vh;
+  margin-left: 125vh;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .deckbuttons {
-background-color: rgba(0, 0, 255, 0.152);
-z-index: 1;
-position: absolute;
-padding-top: 18vh;
-padding-left: 17vh;
+  background-color: rgba(0, 0, 255, 0.152);
+  z-index: 1;
+  position: absolute;
+  padding-top: 18vh;
+  padding-left: 17vh;
 }
 
-#selectcard1, #selectrival1 {
-    margin-top: 0.3vh;
-    margin-left: 0.3vh;
+#selectcard1,
+#selectrival1 {
+  margin-top: 0.3vh;
+  margin-left: 0.3vh;
 }
 
-#selectcard2, #selectrival2{
-    margin-top: 20vh;
-    margin-left: 0.3vh;
+#selectcard2,
+#selectrival2 {
+  margin-top: 20vh;
+  margin-left: 0.3vh;
+}
+
+#selectcard1,
+#selectrival1 {
+  margin-top: 0.3vh;
+  margin-left: 0.3vh;
+}
+#selectcard4,
+#selectrival4 {
+  margin-top: 39vh;
+  margin-left: 0.3vh;
+}
+#selectcard5,
+#selectrival5 {
+  margin-top: 58.3vh;
+  margin-left: 0.3vh;
+}
+#selectcard6,
+#selectrival6 {
+  margin-top: 77.7vh;
+  margin-left: 0.3vh;
 }
 
 .gridbuttons {
-    background-color: rgba(0, 0, 255, 0.037);
-    border-color: rgba(0, 0, 255, 0.204);
-    z-index: 1;
-    position: absolute;
-    background-size: 18vh;
-    padding-top: 18vh;
-    padding-left: 17vh;
-    background-repeat: no-repeat;
+  background-color: rgba(0, 0, 255, 0.037);
+  border-color: rgba(0, 0, 255, 0.204);
+  z-index: 1;
+  position: absolute;
+  background-size: 18vh;
+  padding-top: 18vh;
+  padding-left: 17vh;
+  background-repeat: no-repeat;
 }
 
 #G1 {
-    margin-top: 5.4vh;
-    margin-left: 10.7vh;
+  margin-top: 5.4vh;
+  margin-left: 10.7vh;
 }
 
 #G2 {
-    margin-top: 5.4vh;
-    margin-left: 31vh;
+  margin-top: 5.4vh;
+  margin-left: 31vh;
 }
 
-.card, .enemycard {
-    height: 19vh;
-    width: 19vh;
-    background-color: yellow;
-    background-size:19vh;
-    background-repeat: no-repeat;
-    margin-bottom: 0.4vh;
+#G3 {
+  margin-top: 5.4vh;
+  margin-left: 51vh;
+}
+
+#G4 {
+  margin-top: 25.8vh;
+  margin-left: 10.7vh;
+}
+
+#G5 {
+  margin-top: 25.8vh;
+  margin-left: 31vh;
+}
+
+#G6 {
+  margin-top: 25.8vh;
+  margin-left: 51vh;
+}
+
+#G7 {
+  margin-top: 45.8vh;
+  margin-left: 10.7vh;
+}
+
+#G8 {
+  margin-top: 45.8vh;
+  margin-left: 31vh;
+}
+
+#G9 {
+  margin-top: 45.8vh;
+  margin-left: 51vh;
+}
+
+.card,
+.enemycard {
+  height: 19vh;
+  width: 19vh;
+  background-color: yellow;
+  background-size: 19vh;
+  background-repeat: no-repeat;
+  margin-bottom: 0.4vh;
 }
 
 #diablo {
-    background-image: url('/images/ttcardDiablo.png');
+  background-image: url("/images/ttcardDiablo.png");
 }
 #bigchocobo {
-    background-image: url('/images/ttcardBigChocobo.png');
+  background-image: url("/images/ttcardBigChocobo.png");
 }
 #ifrit {
-    background-image: url('/images/ttcardIfrit.png');
+  background-image: url("/images/ttcardIfrit.png");
 }
 #tomberi {
-    background-image: url('/images/ttcardTomberi.png');
+  background-image: url("/images/ttcardTomberi.png");
 }
