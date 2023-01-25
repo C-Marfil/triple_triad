@@ -1,7 +1,7 @@
 
 
-# TRIPLE TRIAD **UNFINISHED**
-![example](https://github.com/C-Marfil/TripleTriad/blob/main/images/example.png)
+# TRIPLE TRIAD 🚧**WORK IN PROGRESS**🚧  
+![example](https://github.com/C-Marfil/triple_triad/blob/main/images/Example.png)
 
 This repo and project was developed in the first few weeks of my Bootcamp - it is displayed here to:
 
