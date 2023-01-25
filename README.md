@@ -135,12 +135,12 @@ This method renders the cards in their *deck* and *enemydeck* divs, giving them 
 *sendCardsThroughGrids(Grid1, Grid2...)*
 This method is the one that checks for Cards placed in Grids after each time a card is placed.
 Example:
-**I place a Card in Grid1, this Card's down value is 6**
-**There's a Card in Grid4, its Up value is 5**
-**Upon placement, this method will update Grid4's Above param to 6.**
+ 1. **I place a Card in Grid1, this Card's down value is 6**
+ 2. **There's a Card in Grid4, its Up value is 5**
+ 3. **Upon placement, this method will update Grid4's Above param to 6.**
 *-This method's work ends here.*
-**When evaluated, the Card in Grid4 will be *flipped=true***
-**Points will be given to the Deck that owns the Card placed in Grid1**
+ 4. **When evaluated, the Card in Grid4 will be *flipped=true***
+ 5. **Points will be given to the Deck that owns the Card placed in Grid1**
 </details>
 
 So now I have the working bones of the game and a set of two decks rendered in my GUI, I've also placed the traditional tabletop in which the game is played. 
