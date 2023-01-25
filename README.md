@@ -1,6 +1,6 @@
 
 
-### TRIPLE TRIAD
+# TRIPLE TRIAD
 
 This repo and project was developed in the first few weeks of my Bootcamp - it is displayed here to:
 
@@ -22,7 +22,7 @@ How could I recreate the game with my rookie knowledge on JS and JQuery?
 
 I love JS Classes, so I quickly came with an initial solution - I would create classes for each element involved in the game.
 
-1. <details>
+<details>
  <summary>Cards </summary>
 When called, it takes its values (up, down, left, right).
 
@@ -43,7 +43,7 @@ Sets this.flipped to true when called.
 This method is called when a card is placed, and passes the values of the card onto the Grid that it takes when called.
 </details>
 
-2. <details>
+<details>
  <summary>Grid </summary>
 When a Card is placed on them, their directional values will take those of the Card instance.
 There will be 9 predefined Grids.
@@ -93,7 +93,7 @@ These methods allow you to pass your Deck to the Card instances it holds. This i
 gather affect your Deck only.
 </details>
 
-3. <details>
+<details>
  <summary>Catalogue </summary>
 A Catalogue that contains all of the obtained Cards.
 
@@ -115,7 +115,7 @@ The answer came to me after days of thinking, in a dream. Not a very DRY dream.
 
 I created another Class:
 
-2. <details>
+<details>
  <summary>Controller </summary>
 It takes your Deck, an enemy Deck and all the 9 Grids to be used in this match.
 
@@ -161,7 +161,7 @@ When a player selects one of its cards via buttons, the event handler sets *sele
 
 🤯 🤯 🤯 🤯 🤯 🤯 🤯 🤯
 
-### Conclusion
+## Conclusion
 
 Shortly after I had figured out how to do it, I had to carry on learning and left the project behind. However, it will always remain as a testament to my first steps into programming, and the first time I realised this is what I want to do for the rest of my life.
 
