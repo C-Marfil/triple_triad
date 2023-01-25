@@ -73,7 +73,7 @@ The Cards that lose, will trigger their *flipped(truthy)* setter, becoming *flip
 This method is called whenever a Card within a Deck is flipped, altering the points of the player.
 </details>
 
-3. <details>
+<details>
  <summary>Deck </summary>
 A Deck takes a name when declared.
 
