@@ -1,6 +1,7 @@
 
 
-# TRIPLE TRIAD
+# TRIPLE TRIAD **UNFINISHED**
+![example](https://github.com/C-Marfil/TripleTriad/blob/main/images/example.png)
 
 This repo and project was developed in the first few weeks of my Bootcamp - it is displayed here to:
 
@@ -8,7 +9,8 @@ This repo and project was developed in the first few weeks of my Bootcamp - it i
 - Demonstrate that my problem solving skills are on point.
 - Demonstrate that I am extremely passionate about the tools I use to bring ideas into fruition.
 
-DISCLAIMER: The code is the least DRY, readeable code I've ever produced. However, it stands as proof for the reasons above. I am aware it is not quality code, but I will be creating a counterpart using React to compare my evolution.
+**DISCLAIMER:**
+ The code is the least DRY, readeable code I've ever produced. However, it stands as proof for the reasons above. I am aware it is not quality code, but I will be creating a counterpart using React to compare my evolution.
 
 ## The Problem
 

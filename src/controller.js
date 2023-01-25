@@ -105,7 +105,7 @@
           gridButton4.style.backgroundImage = `url('/images/ttcard${selectedCard.name}.png')`;
           cardElement.style.backgroundImage = `url()`;
           this.sendCardsThroughGrid(G1, G5, G7);
-          this.selectedGrid.evaluaterUp(G1);
+          this.selectedGrid.evaluateUp(G1);
           this.selectedGrid.evaluateRight(G5);
           this.selectedGrid.evaluateDown(G7);
         } else {
