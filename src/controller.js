@@ -12,8 +12,6 @@
       this.G9 = Grid9;
       this.deck = Deck;
       this.enemy = EnemyDeck;
-      this.card0 = null;
-      this.card1 = null;
       this.selectedCard = null;
       this.selectedGrid = null;
 
